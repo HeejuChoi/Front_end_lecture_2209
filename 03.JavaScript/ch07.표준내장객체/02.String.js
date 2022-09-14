@@ -34,7 +34,7 @@ console.log(newStr);
 
 // 문자열의 일부분을 추출 
 let str = 'Apple, Banana, Kiwi';
-console.log(str.slice(7,13));       // Banana (시작 인덱스,끝 인덱스)
+console.log(str.slice(7,13));       // Banana (시작 인덱스,끝 인덱스) (Python) [시작:끝]
 console.log(str.slice(7));          // Banana, Kiwi (7부터 끝까지)
 console.log(str.substring(7, 13));  // Banana / slice랑 별 차이가 없음 
 console.log(str.substr(7, 6));      // Banana (시작 인덱스, 갯수), deprecated(다음 버전에서는 사용할 수 없다)
