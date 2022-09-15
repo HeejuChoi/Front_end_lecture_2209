@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style 조작</title>
+    <script>
+        window.onload = function() {
+            document.querySelector('h1').style.borderBlock = 'solid';  // js에서는 style에 - 연결이 아니라 대문자로 변경됨 
+            // h1의 스타일이 변경됨, class 명을 쓰면 해당 클래스가 변경됨 / h1이 여러개면 맨 위만 변경됨 
+        }
+    </script>
+</head>
+<body style="margin: 50px;">
+    <h1 style="background-color: beige;">스타일 조작</h1>
+    <h1 style="background-color: beige;">스타일 조작</h1>
+    <h1 style="background-color: beige;">스타일 조작</h1>
+</body>
+</html>
