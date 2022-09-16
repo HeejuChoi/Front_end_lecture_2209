@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문서객체 생성</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {      //.ready도 일종의 이벤트다.
+            $('<h1></h1>')      // 객체 생성해서 .appendTo 입력하면 body에 들어감
+                .text('문서객체를 생성하였습니다.')
+                .css('backgroundColor','yellow')
+                .attr('class','title')
+                .appendTo('body')
+        });
+    </script>
+
+</head>
+<body style="margin: 50px;">
+    
+</body>
+</html>

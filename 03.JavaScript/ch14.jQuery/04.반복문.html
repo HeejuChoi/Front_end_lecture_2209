@@ -10,7 +10,7 @@
         $(document).ready(function() {
             $('li').each(function(index, element) {  // li 배열의 반복문 // JS Array객체 메소드 forEach와 파라메터 순서가 뒤바뀌었음 
                 if (index % 2 == 0)
-                    $(this).css('color','red');         // this 자리에 element를 사용해도 됨 
+                    $(this).css('color','red');         // this 자리에 element를 사용해도 됨 (주로 this 사용)
                 else
                     $(this).css('backgroundColor','beige');
             });
