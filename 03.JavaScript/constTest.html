@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        const person = {
+            name : "승환",
+            age : 20,
+            address : "전주"
+        }
+
+        console.log(person.name)  // person이라는 객체 안에 name이라는 키값을 가지고 옴 
+        person.name = "영표"
+
+        console.log(person.name)  // 원래 const면 바뀌면 안되는거 아닌가? 하지만 영표로 바뀜 
+        // 이유 : 실제로 안에 값들이 person안에 있는게 아니라 어느 한 메모리 안에 있는거고
+        // person은 값들이 있는 주소를 가지고 있음 
+        // 영표로 바꾼건 메모리 안에 있는 내용을 바꿨음 person에 있는 주소값은 안바뀌었기 때문에 
+        // const여도 바뀌는 것   
+
+    </script>
+</body>
+</html>
